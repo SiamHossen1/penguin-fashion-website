@@ -1,0 +1,38 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn1{
+    width: 12rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    padding-left: 3rem;
+    text-decoration: none;
+    color: white;
+}
+.btn1:hover{
+    color: white;
+}
+
+@media (min-width: 0px){
+    .nav-item a{
+        text-align: center;
+    }
+
+    .header-contain{
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 576px){
+    .header-contain{
+        flex-direction: row;
+        
+    }
+}
+
+
+
+
+    
